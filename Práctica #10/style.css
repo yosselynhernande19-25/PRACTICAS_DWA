@@ -1,0 +1,101 @@
+/*Estilo para el contenedor principal */
+.container {
+    max-width: 600px; /*Ancho máximo del contenedor */
+    margin: 0 auto; /*Center el contenedor en la página */
+    padding: 20px;  /*Espacio interno del contenedor */
+}
+
+/*Estilo para el primer párrafo */
+.textoUno {
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    color: #f0652e;
+}
+
+/*Estilo para el segundo párrafo */
+.texto {
+    font-size: 16px; /* Tamaño de fuente */
+    color: #c240ce;
+}
+
+/*Estilo para el contenido dentro del div */
+.contenido {
+    background-color: #00ff62; /*Color de fondo */
+    color: #fff; /*Color del texto */
+    padding: 10px; /* Espacio interno */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para el div con borde */
+.border-Contenido{
+    background-color: #ffee00;
+    color: #0f0c0c;
+    padding: 10px; /*Espacio interno */
+    font-weight: bold; /* Texto en negrita */
+    border: rgb(17, 17, 17) 1px solid;
+}
+
+/*Estilo para la tabla principal */
+.tabla-Principal {
+    width: 100%; /* Ancho de la tabla al 100% del contenedor */
+    border-collapse: collapse; /*Combinar border de celdas */
+}
+
+/*Estilo para las celdas de encabezado */
+.tabla-Principal th {
+    background-color: #0a4044; /*Color de fondo primario */
+    color: #fff; /*Color del texto para el encabezado */
+    text-align: center;
+    font-weight: bold;/* Texto en negrita */
+    border: rgb(17, 17, 17) 1px solid;
+}
+
+/*Estilo para las celdas de encabezado */
+.tabla-Principal td {
+    text-align: center;
+    padding: 5px; /*Espacio interno */
+    background-color: #b5eca7; /*Color de fondo primario */
+    color: #1a1616; /*Color del texto para el encabezado */
+    border: rgb(17, 17, 17) 1px solid;
+}
+
+/* Estilo para el botón */
+.boton {
+    background-color: #007bff; /*Color de fondo primario */
+    color: #fff; /*Color del texto para el encabezado */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /*Sin borde */
+    cursor: pointer; /* Cambio de cursor al pasar por encima */
+}
+
+.borde-Boton {
+    background-color: transparent; /* Fondo transparente */
+    color:#fff ; 
+}
+
+.table-primary{
+    background-color: #8a5042;
+    color: #0e0a0a; /*Color del texto para el encabezado */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.boton{
+    background-color: #ca23e0;
+}
+
+.borde-boton{
+    background-color: transparent;
+    color: #1a1616;
+    border: 2px solid #e21d1d;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.enlace {
+    color: #4708db;
+    text-decoration: none;
+}
+
+.link-primary:hover {
+    text-decoration: underline;
+}
